@@ -1,6 +1,9 @@
 
 def method_help():
-  pass
+  # pass
+  dic = {"key1":100, "key2":500}
+  dic.popitem()
+  print(dic)
 ########################################################################################################################
   # Methods, Help & Documentation Practice #1
   # Remove the characters to the left of our main text:
@@ -32,8 +35,9 @@ def method_help():
   # Methods, Help & Documentation Practice #2
   # Add the element "orange" as the fourth element of the following list fruits, using the insert() method:
   
-  # fruits = ["mango", "banana", "cherry", "plum", "grapefruit"]
-  
+  fruits = ["mango", "banana", "cherry", "plum", "grapefruit"]
+  fruits.insert(3,"orange")
+  print(fruits)
   # Search the documentation for the requested method to know how it works.
 
 
